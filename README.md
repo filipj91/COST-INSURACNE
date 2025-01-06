@@ -1,65 +1,48 @@
 # COST-INSURECNE
-The project is an interactive dashboard in Streamlit for analyzing and predicting health insurance costs in the US. Uses Python, Plotly, Pandas, and CI/CD with GitHub Actions and pytest. It offers visualizations, an aesthetic interface, and automatic code testing and deployment.
 
-Project Description
-This project presents a complete dashboard created in Streamlit, used to analyze and predict health insurance costs in the United States. The project integrates elements of Data Science, Machine Learning, and CI/CD, and its goal is to show analytical, programming, and implementation skills.
+An interactive dashboard built with Streamlit for analyzing and predicting health insurance costs in the US. The project integrates Python, Plotly, Pandas, and a CI/CD pipeline using GitHub Actions and pytest, ensuring high code quality and seamless deployment.
 
-Dashboard Features
+## Dashboard Features
 
-Visualization of predictive model results:
+### Predictive Model Visualization
+- Comparison of actual insurance costs with model predictions using:
+  - Linear Regression
+  - Random Forest
+- Interactive Plotly graphs, including dynamic animations for better trend analysis.
 
-Comparison of actual insurance costs with model predictions:
-- Linear Regression
-- Random Forest
-- Interactive graph in Plotly technology.
-- Animation enabling dynamic presentation of data.
+### CI/CD Integration
+- Automated code testing with pytest.
+- GitHub Actions pipeline for smooth testing and deployment.
 
-CI/CD process description:
+### Aesthetic and Functional Design
+- Responsive user interface with custom CSS.
+- Modern design tailored for data visualization needs.
 
-Automatic code testing using pytest.
-GitHub Actions configuration for smooth deployment and testing.
-Displaying a sample YAML file illustrating the pipeline.
+## Technologies Used
 
-Aesthetic and functional presentation:
+- **Languages** Python
+- **Libraries**
+  - Streamlit: For building the interactive dashboard.
+  - Plotly: For creating dynamic and interactive charts.
+  - Pandas, NumPy: For data manipulation.
 
-Responsive UI with custom CSS.
-Modern design adapted to the needs of data visualization.
-Technologies Used in the Project
+- **CI/CD**
+  - GitHub Actions: For automated testing and deployment.
+  - pytest: For testing predictive models.
 
-Programming Languages:
-- Python
-- Libraries:
-- Streamlit - for building an interactive dashboard.
-- Plotly - for creating dynamic charts.
-- Pandas and NumPy - for data manipulation.
+## Key Insights
+The dashboard features a "Comparison of Predictions with Actual Values" chart that:
+- Highlights differences between actual insurance costs and model predictions.
+- Enables visual error analysis to assess model accuracy.
+- Includes an animation for step-by-step data presentation.
 
-CI/CD:
-GitHub Actions - for automated code testing and deployment.
-pytest - for testing models.
+## Summary
+This project demonstrates practical application of data analytics, machine learning, and engineering tools for insurance cost prediction. The integration of CI/CD showcases a focus on code quality and process automation, making it a robust and scalable solution.
 
-The dashboard includes a "Comparison of Predictions with Actual Values" chart that:
+## Data
+To download the data for this project  
+[Download Dataset](https://drive.google.com/file/d/1-9hXY8s5kDU4JEmQiehvLV_h8nc3MYy2/view?usp=sharing)
 
-- Shows the differences between actual insurance costs and model predictions.
-
-- Allows you to assess the accuracy of the models through visual error analysis.
-
-- Includes an animation that presents the data step by step for a better understanding of trends.
-
-CI/CD
-
-The project has been integrated with CI/CD, which allows:
-- Automatic code testing using pytest.
-- Automatic deployment after passing tests.
-- Supporting good data engineering practices in a production context.
-
-Summary
-This project demonstrates the use of analytical and engineering tools in a practical case of insurance cost prediction. The inclusion of CI/CD emphasizes the focus on code quality and process automation.
-
-Data:
-To download the data needed for the project, click on the link below:
-
-https://drive.google.com/file/d/1-9hXY8s5kDU4JEmQiehvLV_h8nc3MYy2/view?usp=sharing
-
-Interactive dashboards:
-
-https://cost-insurecne-dashboard.streamlit.app
+## Interactive Dashboard
+Explore the live dashboard
+[Cost-Insurecne Dashboard](https://cost-insurecne-dashboard.streamlit.app)
