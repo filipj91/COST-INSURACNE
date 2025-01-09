@@ -1,4 +1,4 @@
-# COST-INSURECNE
+# COST-INSURACNE
 
 An interactive dashboard built with Streamlit for analyzing and predicting health insurance costs in the US. The project integrates Python, Plotly, Pandas, and a CI/CD pipeline using GitHub Actions and pytest, ensuring high code quality and seamless deployment.
 
